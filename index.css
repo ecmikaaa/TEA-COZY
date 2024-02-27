@@ -1,0 +1,152 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+}
+header {
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0 10px;
+}
+a {
+    text-decoration: underline;
+    color: seashell;
+    font-size: 22px;
+    opacity: 0.9;
+    margin-left: 10px;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-container {
+    position: relative;
+    width: 1200px;
+    height: 700px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-container img {
+    width: 100%;
+    height: 100%;
+}
+.overlay-text {
+    position: absolute;
+    text-align: center;
+    background-color: black;
+    color: seashell;
+    width: 100%;
+}
+.main-text-2 {
+    position: absolute;
+    text-align: center;
+    background-color: black;
+    color: seashell;
+    width: 100%;  
+}
+.tea-examples {
+    margin-top: 30px;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.tea-boxes {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 100px auto;
+    gap: 20px; 
+}
+.img-text-1, .img-text-2, .img-text-3, .img-text-4, .img-text-5 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: calc(33.333% - 20px);
+}
+.img-text-1 img, .img-text-2 img, .img-text-3 img, .img-text-4 img, .img-text-5 img {
+    width: 300px;
+    height: 200px;
+}
+.locations-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-locations {
+    position: relative;
+    width: 1200px;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+}
+
+.image-locations img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.content-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    height: 500px;
+    flex-direction: column;
+}
+
+.locations-text {
+    color: seashell;
+    text-align: center;
+    margin-top: 59px;
+}
+
+.cards {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 141px;
+}
+
+.card-1 {
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    justify-content: space-between;
+    opacity: 0.7;
+}
+.information {
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: auto;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
